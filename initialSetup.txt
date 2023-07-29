@@ -1,0 +1,25 @@
+Create a folder and open the terminal in it and run:
+npm create vite@latest project-name
+
+Then cd into the project-name folder, and follow below
+
+Add this inton the vite.config.js:
+ server: {
+    port: 3000,
+  },
+inside the:
+export default defineConfig function
+
+run the:
+npm i 
+For the package.json and node_modules folder
+
+run the:
+npm dev start
+To run the application on:
+localhost:3000
+
+Install the ChakraUI through terminal
+
+Create the .env file in the root folder:
+Add API keys and API URLs in it
